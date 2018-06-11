@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <!--
+                Add menu items here
+                Menu items with icon and Title
+        -->
+        <item
+            android:id="@+id/firstemployee"
+            android:icon="@drawable/timesheet"
+            android:title="Time Sheet" />
+        <item
+            android:id="@+id/secondemployee"
+            android:icon="@drawable/payroll"
+            android:title="Payrol" />
+        <item
+            android:id="@+id/thirdemployee"
+            android:icon="@drawable/attendance"
+            android:title="Attendance" />
+        <item
+            android:id="@+id/fourthemployee"
+            android:icon="@drawable/leave"
+            android:title="Leave" />
+
+        <item
+            android:id="@+id/fifthemployee"
+            android:icon="@drawable/forms"
+            android:title="Joining Form" />
+
+    </group>
+
+</menu>
